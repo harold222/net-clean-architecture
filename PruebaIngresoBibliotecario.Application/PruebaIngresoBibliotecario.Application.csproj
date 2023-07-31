@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PruebaIngresoBibliotecario.Domain\PruebaIngresoBibliotecario.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="FluentValidation" Version="9.5.4" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.5.4" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
